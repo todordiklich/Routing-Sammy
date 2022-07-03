@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/team.css" />
+    <link rel="stylesheet" type="text/css" href="css/details.css" />
+    <link rel="stylesheet" type="text/css" href="css/buttons.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+
+    <title>Team Managers App</title>
+  </head>
+
+  <body>
+    <div id="infoBox" class="notification" disabled></div>
+    <div id="errorBox" class="notification" disabled></div>
+    
+    <div id="main"></div>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyCG0Tf6jyi4tgKJ0tdq7VPN_o3443r4xa0",
+        authDomain: "team-manager-6f161.firebaseapp.com",
+        databaseURL: "https://team-manager-6f161-default-rtdb.firebaseio.com",
+        projectId: "team-manager-6f161",
+        storageBucket: "team-manager-6f161.appspot.com",
+        messagingSenderId: "185255765489",
+        appId: "1:185255765489:web:f4530be0d80eda364f1050",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-auth.js"></script>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="node_modules/handlebars/dist/handlebars.js"></script>
+    <script src="node_modules/sammy/lib/sammy.js"></script>
+    <script src="node_modules/sammy/lib/plugins/sammy.handlebars.js"></script>
+    
+    <script src="./scripts/app.js"></script>
+
+  </body>
+</html>
