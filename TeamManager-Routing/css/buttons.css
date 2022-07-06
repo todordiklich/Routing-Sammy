@@ -9,3 +9,15 @@ input.btn:hover {
     background-color: hsl(0, 0%, 60%);
     font-weight: bold;
 }
+
+button {
+    border-radius: 0.25rem;
+    border: 1px solid black;
+    background-color: hsl(0, 0%, 80%);
+    padding: 6px 18px;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 60%);
+    font-weight: bold;
+}
